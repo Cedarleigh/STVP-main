@@ -6,7 +6,7 @@ Viewport Prediction for Volumetric Video Streaming by Exploring Video Saliency a
 Jie Li, Zhixin Li, Zhi Liu, Pengyuan Zhou, Richang Hong, Qiyue Li, Han Hu
 
 ### Setup Instructions
-This implementation has been tested with Python 3.5, TensorFlow 1.11, CUDA 9.0, and cuDNN 7.4.1, running on Ubuntu 16.04.
+This implementation has been tested with Python 3.5, TensorFlow 1.11, CUDA 9.0, and cuDNN 7.4.1, running on Ubuntu 18.04.
 
 - 1.Clone the repository 
 ```
