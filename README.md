@@ -3,7 +3,7 @@ This is the official implementation of STVP, a simple and efficient neural archi
 
 Viewport Prediction for Volumetric Video Streaming by Exploring Video Saliency and Trajectory Information. [PaPer](https://arxiv.org/abs/2311.16462)
 
-Jie Li, Zhixin Li, Zhi Liu, Pengyuan Zhou, Richang Hong, Qiyue Li, Han Hu
+Jie Li, Zhixia Zhao, Zhixin Li, Zhi Liu, Pengyuan Zhou, Richang Hong, Qiyue Li, Han Hu
 ![image](imgs/overview.PNG)
 
 ### Setup Instructions
