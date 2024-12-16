@@ -19,3 +19,29 @@ conda create -n stvp python=3.5
 source activate stvp
 pip install -r stvp_requirements.txt
 ```
+### (2) Dataset preparation and preprocessing
+8i dataset can be found 
+<a href="http://plenodb.jpeg.org/pc/8ilabs">here</a>. 
+Download all the files. Uncompress the folder and move it to 
+`/your/data/path`.
+
+View data can be found 
+<a href="https://github.com/Yong-Chen94/6DoF_Video_FoV_Dataset">here</a>. 
+Download all the files. Uncompress the folder and move it to 
+`/your/view_data/path`.
+
+- Preparing the dataset:
+```
+python utils/data_prepare.py
+```
+### (3)Train and Tset
+```
+# train
+python main.py --mode train --gpu 0
+# test
+python main.py --mode test --gpu 0
+```
+- Move all the generated results (*.ply) in `/test` folder to `/your/results/path`, calculate the final mean IoU results:
+```
+python utils/6_fold_cv.py
+```
